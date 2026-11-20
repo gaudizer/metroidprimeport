@@ -1,6 +1,7 @@
 name: ios
 
 # Experimental iPhone/iPad build: an unsigned .ipa that players sideload
+# Registered in this fork for manual iOS builds of the preserved 0.46.0 source.
 # (SideStore, AltStore, Sideloadly re-sign it with their own Apple ID).
 on:
   workflow_dispatch:
