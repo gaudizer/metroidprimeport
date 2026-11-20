@@ -63,6 +63,8 @@ jobs:
           -DAURORA_ENABLE_TESTS=OFF
           -DBUILD_SHARED_LIBS=OFF
           -DAURORA_DAWN_PROVIDER=${{ matrix.dawn }}
+          -DAURORA_DAWN_PACKAGE_URL=https://github.com/encounter/dawn/releases/download/v20260807.225922/dawn-ios-arm64.tar.gz
+          -DAURORA_DAWN_PACKAGE_SHA256=64e70875040099e24db3a40095461d43be0c553f0c347d63628f6d469c7d184b
           -DAURORA_DAWN_LINKAGE=static
           -DAURORA_SDL3_PROVIDER=vendor
           -DAURORA_SDL3_LINKAGE=static
