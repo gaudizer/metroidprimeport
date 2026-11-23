@@ -1,11 +1,8 @@
 name: macos
 
-# Experimental Apple Silicon build. Start it by hand like windows.yml; it also
-# runs weekly, as windows.yml does.
+# Experimental Apple Silicon build. In this fork, run manually when needed.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "47 4 * * 1"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
